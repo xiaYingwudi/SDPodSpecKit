@@ -1,0 +1,6 @@
+framework module Pods_SDPodSpecKit_Tests {
+  umbrella header "Pods-SDPodSpecKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

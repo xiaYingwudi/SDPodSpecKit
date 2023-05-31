@@ -64,9 +64,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A73FDA263E57005D23E20907 /* Pods-SDPodSpecKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDPodSpecKit_Example.release.xcconfig"; path = "Target Support Files/Pods-SDPodSpecKit_Example/Pods-SDPodSpecKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B7E78B7A2BDBBF4E063E947B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C572422674F7941F054E043C /* SDPodSpecKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SDPodSpecKit.podspec; path = ../SDPodSpecKit.podspec; sourceTree = "<group>"; };
-		D0A4DA9D0C613E3E9CCE500A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B7E78B7A2BDBBF4E063E947B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C572422674F7941F054E043C /* SDPodSpecKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDPodSpecKit.podspec; path = ../SDPodSpecKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D0A4DA9D0C613E3E9CCE500A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				1CC2FFAC38ECE6508B3CEDC1 /* Pods-SDPodSpecKit_Tests.debug.xcconfig */,
 				384CE1D9D353D047C4ED73F1 /* Pods-SDPodSpecKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

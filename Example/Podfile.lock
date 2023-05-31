@@ -1,0 +1,16 @@
+PODS:
+  - SDPodSpecKit (0.1.0)
+
+DEPENDENCIES:
+  - SDPodSpecKit (from `../`)
+
+EXTERNAL SOURCES:
+  SDPodSpecKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDPodSpecKit: 87e7a883ad6bfc680fe971ecdff91a381b8520f6
+
+PODFILE CHECKSUM: 420ea828aa5c7bcdd6ace337a3592fcfa50f7ce5
+
+COCOAPODS: 1.11.3
