@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SDPodSpecKit_Example' do
+  pod 'SDPodSpecKit', :path => '../'
+
+  target 'SDPodSpecKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
